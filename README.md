@@ -8,21 +8,21 @@ To see a profile example, look at `profiles/default/profile.json`.
 
 ## Usage
 
-1. Clone boilr.
+a) Clone boilr.
 
 ```
 $ cd /projects
 $ git clone git@github.com:nicholascloud/boilr.git
 ```
 
-2. Install as a global npm module (not available in the registry yet).
+b) Install as a global npm module (not available in the registry yet).
 
 ```
 $ cd /projects
 $ npm install -g ./boilr
 ```
 
-3. Generate a project by using the default profile.
+c) Generate a project by using the default profile.
 
 ```
 $ cd /projects
