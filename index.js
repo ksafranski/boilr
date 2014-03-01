@@ -3,14 +3,18 @@
 require('colors');
 var shell = require('shelljs'),
 	path = require('path'),
-	fs = require('fs');
+	fs = require('fs'),
+	fetch = require('./lib/fetch.js');
 
 if (process.argv.length < 4) {
-	console.info('usage: boilr [profile-dir] [project-dir]');
+	console.info('usage: boilr [profile] [project-dir]');
 	process.exit(0);
 }
 
-var profileFile = path.resolve(process.argv[2]);
+var profile = path.resolve(process.argv[2]);
+
+// Setup the profile
+var profileFile = fetch.setup(profile);
 
 if (fs.statSync(profileFile).isDirectory()) {
 	profileFile = path.join(profileFile, 'profile.json');
