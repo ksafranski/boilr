@@ -1,0 +1,22 @@
+# meta
+.DS_Store
+Thumbs.db
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+pids/
+logs/
+results/
+_tmp/
+
+# libraries
+node_modules/
+
+# output
+
+# npm
+npm-debug.log

@@ -1,0 +1,40 @@
+{
+	"paths": [
+		"/src/public/css",
+		"/src/public/js/vendor",
+		"/src/public/assets",
+		"/doc",
+		"/node_modules",
+		"test"
+	],
+
+	"files": {
+		"README.md": "/README.md",
+		"gruntfile.js": "/gruntfile.js",
+		"package.json": "/package.json",
+		"bower.json": "/bower.json",
+		"_bowerrc": "/.bowerrc",
+		"_gitignore": "/.gitignore",
+		"_jshintignore": "/.jshintignore",
+		"_jshintrc": "/.jshintrc",
+		"resetlib.sh": "/resetlib.sh",
+		"index.html": "/src/public/index.html",
+		"main.scss": "/src/public/css/main.scss",
+		"ajax-loader.gif": "/src/public/assets/ajax-loader.gif"
+	},
+
+	"scripts": [
+		"touch ./src/public/js/main.js",
+		"touch ./test/README.md",
+		"touch ./doc/README.md",
+		"npm install -g grunt-cli",
+		"npm install",
+		"git init",
+		"git add -A",
+		"git commit -m 'initial commit'"
+	],
+
+	"links": {
+		"~/tmp": "/_tmp"
+	}
+}

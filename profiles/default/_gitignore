@@ -1,0 +1,27 @@
+# meta
+.DS_Store
+Thumbs.db
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+.sass-cache/
+pids/
+logs/
+results/
+_tmp/
+
+# libraries
+lib-cov/
+node_modules/
+src/public/js/vendor/
+
+# output
+dist/
+src/css/main.css
+
+# npm
+npm-debug.log

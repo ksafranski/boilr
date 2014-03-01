@@ -1,0 +1,17 @@
+{
+	"name": "boilr",
+	"description": "creates boilerplate projects",
+	"version": "0.0.1",
+	"contributors": [],
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+	"dependencies": {
+		"shelljs": "0.2.6",
+		"colors": "0.6.2"
+	},
+	"devDependencies": {},
+	"scripts": {},
+	"bin": "index.js"
+}
